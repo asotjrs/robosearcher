@@ -1,16 +1,31 @@
 import React, {Component} from 'react';
 import './App.css';
 import Cardlist from "./Cardlist";
+import SearchBox from "./SearchBox";
 
 
-const input="";
+
 
 class App extends Component{
+  constructor(props) {
+    super(props);
+    this.state={
+      searchField:'test random robots here',
+    }
+  }
+
+  onSearchChange=(event)=>{
+    console.log(event.target.value);
+    this.setState({searchField:event.target.value});
+  };
+
   render (){
-    return <div className="App">
-      <h1 className={'tc'}>Robofriends</h1>
+    const input=this.state.searchField;
+    return <div className="App tc">
+      <h1 className={'tc f1 red'}>Robofriends</h1>
+      <SearchBox onSearchChange={this.onSearchChange}/>
       {
-        input.trim()===""? <h1>There is Nothing to show</h1>:<Cardlist input={input}/>
+        input.trim()===""? <h1>Type Robots names Separated by space </h1>:<Cardlist input={input}/>
 
       }
     </div>

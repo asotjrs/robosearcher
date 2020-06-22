@@ -3,8 +3,8 @@ import Card from "./Card";
 
 const Cardlist=({input})=>{
     const users=input.split(" ");
-    const renderedList=users.map((userName)=>{
-        return <Card input={userName} key={userName}/>;
+    const renderedList=users.map((userName,id)=>{
+        return <Card input={userName.trim()} key={id}/>;
 
     });
     return <div>{renderedList}</div>;
