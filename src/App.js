@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Cardlist from "./Cardlist";
 import SearchBox from "./SearchBox";
+import Scroller from "./Scroller";
 
 
 
@@ -30,12 +31,12 @@ class App extends Component{
   };
 
   render (){
-    const input=this.state.input;
+    const input=this.state.searchField===''? this.state.input:this.state.searchField;
     return <div className="App tc">
-      <h1 className={'tc f1 red'}>Robofriends</h1>
+      <h1 className={'tc f1 red'}>Robots Searcher</h1>
       <SearchBox onSearchChange={this.onSearchChange}/>
       {
-        input.trim()===""? <h1>Type Robots names Separated by comma ',' </h1>:<Cardlist input={input}/>
+         input.trim()===""? <h1>Type Robots names Separated by comma ','</h1>:<Scroller><Cardlist input={input}/></Scroller>
 
       }
     </div>
