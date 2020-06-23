@@ -10,8 +10,18 @@ class App extends Component{
   constructor(props) {
     super(props);
     this.state={
-      searchField:'test random robots here',
+      searchField:'',
+      input:''
     }
+  }
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users').then(response=>response.json()).then(result=>{
+        const robots=result.map((user)=>{ return user.name;
+        });
+        const rob=robots.join(',');
+        this.setState({input:rob});
+
+    })
   }
 
   onSearchChange=(event)=>{
@@ -20,12 +30,12 @@ class App extends Component{
   };
 
   render (){
-    const input=this.state.searchField;
+    const input=this.state.input;
     return <div className="App tc">
       <h1 className={'tc f1 red'}>Robofriends</h1>
       <SearchBox onSearchChange={this.onSearchChange}/>
       {
-        input.trim()===""? <h1>Type Robots names Separated by space </h1>:<Cardlist input={input}/>
+        input.trim()===""? <h1>Type Robots names Separated by comma ',' </h1>:<Cardlist input={input}/>
 
       }
     </div>
