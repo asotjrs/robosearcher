@@ -3,7 +3,7 @@ import './App.css';
 import Cardlist from "../components/Cardlist";
 import SearchBox from "../components/SearchBox";
 import Scroller from "../components/Scroller";
-
+import ErrorBoundry from "./ErrorBoundry";
 
 
 
@@ -36,7 +36,7 @@ class App extends Component{
       <h1 className={'tc f1 red'}>Robots Searcher</h1>
       <SearchBox onSearchChange={this.onSearchChange}/>
       {
-         input.trim()===""? <h1>Type Robots names Separated by comma ','</h1>:<Scroller><Cardlist input={input}/></Scroller>
+        input.trim()===""? <h1>Type Robots names Separated by comma ','</h1>:<Scroller><ErrorBoundry> <Cardlist input={input}/></ErrorBoundry> </Scroller>
 
       }
     </div>
