@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a85d34-b0a9-403a-8df5-38f533b48859" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -21,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1dg654z8bWRU1usxmC1GGc825cS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,6 +82,7 @@
       <updated>1592834202649</updated>
       <workItem from="1592834205981" duration="16337000" />
       <workItem from="1592923503266" duration="15309000" />
+      <workItem from="1592957187092" duration="571000" />
     </task>
     <servers />
   </component>
