@@ -17,8 +17,7 @@ class App extends Component{
   }
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users').then(response=>response.json()).then(result=>{
-        const robots=result.map((user)=>{ return user.name;
-        });
+        const robots=result.map((user)=>{ return user.name; });
         const rob=robots.join(',');
         this.setState({input:rob});
 
