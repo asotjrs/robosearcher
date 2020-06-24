@@ -4,14 +4,27 @@ import Cardlist from "../components/Cardlist";
 import SearchBox from "../components/SearchBox";
 import Scroller from "../components/Scroller";
 import ErrorBoundry from "./ErrorBoundry";
+import {connect} from 'react-redux';
 
+import {setSearchField} from "../actions";
 
+const mapStateToProps=state=>{
+  return {
+    searchField: state.searchField
+
+  }
+
+};
+const mapDispatchToProps=dispatch=>{
+return {
+  onSearchChange: event=>dispatch(setSearchField(event.target.value))
+}
+};
 
 class App extends Component{
   constructor(props) {
     super(props);
     this.state={
-      searchField:'',
       input:''
     }
   }
@@ -24,16 +37,13 @@ class App extends Component{
     })
   }
 
-  onSearchChange=(event)=>{
-    console.log(event.target.value);
-    this.setState({searchField:event.target.value});
-  };
+
 
   render (){
-    const input=this.state.searchField===''? this.state.input:this.state.searchField;
+    const input=this.props.searchField===''? this.state.input:this.props.searchField;
     return <div className="App tc">
       <h1 className={'tc f1 red'}>Robots Searcher</h1>
-      <SearchBox onSearchChange={this.onSearchChange}/>
+      <SearchBox onSearchChange={this.props.onSearchChange}/>
       {
         input.trim()===""? <h1>Type Robots names Separated by comma ','</h1>:<Scroller><ErrorBoundry> <Cardlist input={input}/></ErrorBoundry> </Scroller>
 
@@ -42,4 +52,4 @@ class App extends Component{
   }
 }
 
-export default App;
+export default connect(mapStateToProps,mapDispatchToProps)(App);
