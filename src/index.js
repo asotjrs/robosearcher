@@ -5,10 +5,13 @@ import './index.css';
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 import App from "./containers/App";
-import {createStore} from "redux";
+import {createStore,applyMiddleware} from "redux";
 import {searchRobots} from "./reducers";
+import {createLogger} from "redux-logger/src";
+import thunkMiddleware from 'redux-thunk';
 
-const store=createStore(searchRobots);
+const logger=createLogger();
+const store=createStore(searchRobots,applyMiddleware(thunkMiddleware ,logger));
 ReactDOM.render(
   <React.StrictMode>
 <Provider store={store}><App /></Provider>  </React.StrictMode>,
