@@ -6,41 +6,35 @@ import Scroller from "../components/Scroller";
 import ErrorBoundry from "./ErrorBoundry";
 import {connect} from 'react-redux';
 
-import {setSearchField} from "../actions";
+import {setSearchField,requestRobots} from "../actions";
 
 const mapStateToProps=state=>{
   return {
-    searchField: state.searchField
+    searchField: state.searchRobots.searchField,
+    input:state.requestRobots.input,
+    isPending:state.requestRobots.isPending,
+    error:state.requestRobots.error
 
   }
 
 };
 const mapDispatchToProps=dispatch=>{
 return {
-  onSearchChange: event=>dispatch(setSearchField(event.target.value))
+  onSearchChange: event=>dispatch(setSearchField(event.target.value)),
+    onRequestRobots: ()=>dispatch(requestRobots())
 }
 };
 
 class App extends Component{
-  constructor(props) {
-    super(props);
-    this.state={
-      input:''
-    }
-  }
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users').then(response=>response.json()).then(result=>{
-        const robots=result.map((user)=>{ return user.name; });
-        const rob=robots.join(',');
-        this.setState({input:rob});
 
-    })
+  componentDidMount() {
+     this.props.onRequestRobots();
   }
 
 
 
   render (){
-    const input=this.props.searchField===''? this.state.input:this.props.searchField;
+    const input=this.props.searchField===''? this.props.input:this.props.searchField;
     return <div className="App tc">
       <h1 className={'tc f1 red'}>Robots Searcher</h1>
       <SearchBox onSearchChange={this.props.onSearchChange}/>
