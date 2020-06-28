@@ -12,7 +12,7 @@ import thunkMiddleware from 'redux-thunk';
 
 const rootReducer=combineReducers({searchRobots,requestRobots});
 const logger=createLogger();
-const store=createStore(rootReducer,applyMiddleware(thunkMiddleware ,logger));
+const store=createStore(rootReducer,applyMiddleware(thunkMiddleware,logger ));
 ReactDOM.render(
   <React.StrictMode>
 <Provider store={store}><App /></Provider>  </React.StrictMode>,
