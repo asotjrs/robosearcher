@@ -6,7 +6,7 @@ const Card=({robot})=>{
         <img src={'https://robohash.org/'+robot} alt={'robot'}/>
         <div>
             <h2>{robot}</h2>
-            <p>{robot.replace(' ','_')+'@gmail.com'}</p>
+            <p>{robot.replace(' ','_')+'@gmail.com?size=200x200'}</p>
         </div>
     </div>
 
