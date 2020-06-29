@@ -15,6 +15,7 @@ export const searchRobots=(state=initialStateSearch,action={})=>{
         default:
             return state;
     }
+
 };
 const initialStateRobots={
     isPending:false,
