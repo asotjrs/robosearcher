@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54e290e8be168c918c3ec0255e649bd7",
+    "revision": "8d5df5857109b57b2396e195c13ae013",
     "url": "/robosearcher/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/robosearcher/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "4a0ed955357504c5a886",
+    "revision": "39388c973c436fcc3213",
     "url": "/robosearcher/static/css/main.43fd47d1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/robosearcher/static/js/2.8e81547d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a0ed955357504c5a886",
-    "url": "/robosearcher/static/js/main.e6da4bfd.chunk.js"
+    "revision": "39388c973c436fcc3213",
+    "url": "/robosearcher/static/js/main.187e5927.chunk.js"
   },
   {
     "revision": "acf08733721f71b32fc2",
