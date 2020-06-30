@@ -13,6 +13,12 @@
    "type": "image/png"
   },
   {
+   "src": "ms-icon-310x310.png",
+   "sizes": "310x310",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
    "src": "logo192.png",
    "type": "image/png",
    "sizes": "192x192"
