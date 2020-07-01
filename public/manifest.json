@@ -4,7 +4,7 @@
  "icons": [
   {
    "src": "favicon.ico",
-   "sizes": "64x64 48x48 32x32 24x24 16x16",
+   "sizes": "48x48",
    "type": "image/x-icon"
   },
   {
@@ -14,15 +14,8 @@
   },
   {
    "src": "android-chrome-256x256.png",
-   "sizes": "512x512",
+   "sizes": "256x256",
    "type": "image/png"
-  },
-
-  {
-   "src": "ms-icon-310x310.png",
-   "sizes": "310x310",
-   "type": "image/png",
-   "purpose": "any maskable"
   }
  ],
  "start_url": "./index.html",
