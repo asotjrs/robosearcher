@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/robosearcher/static/css/main.d9434928.chunk.css",
-    "main.js": "/robosearcher/static/js/main.3b4e1130.chunk.js",
-    "main.js.map": "/robosearcher/static/js/main.3b4e1130.chunk.js.map",
+    "main.css": "/robosearcher/static/css/main.62901153.chunk.css",
+    "main.js": "/robosearcher/static/js/main.0a955f02.chunk.js",
+    "main.js.map": "/robosearcher/static/js/main.0a955f02.chunk.js.map",
     "runtime-main.js": "/robosearcher/static/js/runtime-main.fa40724e.js",
     "runtime-main.js.map": "/robosearcher/static/js/runtime-main.fa40724e.js.map",
     "static/css/2.3c03f26f.chunk.css": "/robosearcher/static/css/2.3c03f26f.chunk.css",
     "static/js/2.8e81547d.chunk.js": "/robosearcher/static/js/2.8e81547d.chunk.js",
     "static/js/2.8e81547d.chunk.js.map": "/robosearcher/static/js/2.8e81547d.chunk.js.map",
     "index.html": "/robosearcher/index.html",
-    "precache-manifest.c4ff75df6bb5068a46238344d3bb2aa2.js": "/robosearcher/precache-manifest.c4ff75df6bb5068a46238344d3bb2aa2.js",
+    "precache-manifest.04cbd81ea57bebded5066a3c8c43cb93.js": "/robosearcher/precache-manifest.04cbd81ea57bebded5066a3c8c43cb93.js",
     "service-worker.js": "/robosearcher/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/robosearcher/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.d9434928.chunk.css.map": "/robosearcher/static/css/main.d9434928.chunk.css.map",
+    "static/css/main.62901153.chunk.css.map": "/robosearcher/static/css/main.62901153.chunk.css.map",
     "static/js/2.8e81547d.chunk.js.LICENSE.txt": "/robosearcher/static/js/2.8e81547d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fa40724e.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.8e81547d.chunk.js",
-    "static/css/main.d9434928.chunk.css",
-    "static/js/main.3b4e1130.chunk.js"
+    "static/css/main.62901153.chunk.css",
+    "static/js/main.0a955f02.chunk.js"
   ]
 }
