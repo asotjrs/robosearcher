@@ -10,7 +10,7 @@ class Header extends Component{
         return<div>
             <SearchBox onSearchChange={this.props.onSearchChange}/>
             <h1>Robots Searcher</h1>
-            <p> to search for new robots , please add new names separated by "," commas</p>
+            <p className={"description f3 dark-red"} > to search for new robots , please add new names separated by "," commas</p>
         </div>
 
     }

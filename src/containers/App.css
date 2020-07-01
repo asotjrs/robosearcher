@@ -3,11 +3,7 @@ h1 {
   line-height: 40px;
   color: maroon;
 }
-p {
-  font-size: 36px;
-  line-height: 40px;
-  color: #c79c10;
-}
+
 .App {
   text-align: center;
 }
