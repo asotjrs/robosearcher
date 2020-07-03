@@ -41,7 +41,7 @@ class App extends Component{
     return <div className="App tc">
       <Header onSearchChange={this.props.onSearchChange}/>
       {
-        robots.trim()===""? <h1>Type Robots names Separated by comma ','</h1>:
+        robots.trim()===""? <h1>Type Robots names Separated by "," Commas </h1>:
             <Scroller><ErrorBoundry> <Cardlist robots={robots}/></ErrorBoundry> </Scroller>
 
       }

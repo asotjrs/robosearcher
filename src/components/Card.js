@@ -5,8 +5,9 @@ const Card=({robot})=>{
      <div className={" bg-light-red dib br3 pa3 ma2 grow bw2 shadow-5 tc"}>
         <img src={"https://robohash.org/"+robot} alt={'robot'}/>
         <div>
+
             <h2>{robot}</h2>
-            <p>{robot+'@gmail.com'}</p>
+            <p>{robot.replace(' ','_')+'@gmail.com'}</p>
         </div>
     </div>
 

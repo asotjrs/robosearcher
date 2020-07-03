@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to match snap-shot 1`] = `
+<div
+  className=" bg-light-red dib br3 pa3 ma2 grow bw2 shadow-5 tc"
+>
+  <img
+    alt="robot"
+    src="https://robohash.org/just testing"
+  />
+  <div>
+    <h2>
+      just testing
+    </h2>
+    <p>
+      just_testing@gmail.com
+    </p>
+  </div>
+</div>
+`;

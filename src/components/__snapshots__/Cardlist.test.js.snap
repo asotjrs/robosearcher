@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to match snap-shot 1`] = `
+<div>
+  <Card
+    key="0"
+    robot="this"
+  />
+  <Card
+    key="1"
+    robot="is"
+  />
+  <Card
+    key="2"
+    robot="just"
+  />
+  <Card
+    key="3"
+    robot="to"
+  />
+  <Card
+    key="4"
+    robot="test"
+  />
+</div>
+`;

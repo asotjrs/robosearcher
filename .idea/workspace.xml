@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a85d34-b0a9-403a-8df5-38f533b48859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Card.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cardlist.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__snapshots__/Card.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__snapshots__/Cardlist.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cardlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cardlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
@@ -42,15 +45,17 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mahmoud\Desktop\robosearcher\src" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\components" />
+      <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\components\__snapshots__" />
+      <recent name="C:\Users\mahmoud\Desktop\robosearcher" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\containers" />
-      <recent name="C:\Users\mahmoud\Desktop\robosearch\src\components" />
-      <recent name="C:\Users\mahmoud\Desktop\robosearch\src\containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +70,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.to match snap-shot">
+    <configuration name="Card.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/Card.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should shallow equal length 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Card.test.js" />
+      <test-names>
+        <test-name value="should shallow equal length 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="to match snap-shot" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Card.test.js" />
+      <test-names>
+        <test-name value="to match snap-shot" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -79,6 +120,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.to match snap-shot" />
+        <item itemvalue="Jest.should shallow equal length 1" />
+        <item itemvalue="Jest.Card.test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,7 +149,8 @@
       <workItem from="1593563026332" duration="1327000" />
       <workItem from="1593610155826" duration="10399000" />
       <workItem from="1593692115959" duration="247000" />
-      <workItem from="1593730394530" duration="3162000" />
+      <workItem from="1593730394530" duration="3755000" />
+      <workItem from="1593797909375" duration="11457000" />
     </task>
     <servers />
   </component>
