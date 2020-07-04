@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51a85d34-b0a9-403a-8df5-38f533b48859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Cardlist.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/__snapshots__/Card.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/__snapshots__/Cardlist.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CountButton.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__snapshots__/CountButton.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cardlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cardlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +44,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mahmoud\Desktop\robosearcher\src" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\components" />
+      <recent name="C:\Users\mahmoud\Desktop\robosearcher\src" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\components\__snapshots__" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher" />
       <recent name="C:\Users\mahmoud\Desktop\robosearcher\src\containers" />
@@ -150,7 +143,7 @@
       <workItem from="1593610155826" duration="10399000" />
       <workItem from="1593692115959" duration="247000" />
       <workItem from="1593730394530" duration="3755000" />
-      <workItem from="1593797909375" duration="11457000" />
+      <workItem from="1593797909375" duration="18947000" />
     </task>
     <servers />
   </component>
