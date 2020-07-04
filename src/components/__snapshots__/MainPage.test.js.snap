@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test only mainPage 1`] = `
+<div
+  className="App tc"
+>
+  <Header
+    onSearchChange={[MockFunction]}
+  />
+  <h1>
+    Type Robots names Separated by "," Commas 
+  </h1>
+</div>
+`;
