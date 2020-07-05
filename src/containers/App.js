@@ -1,12 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
-import Cardlist from "../components/Cardlist";
-import Scroller from "../components/Scroller";
-import ErrorBoundry from "./ErrorBoundry";
-import {connect} from 'react-redux';
 
+import {connect} from 'react-redux';
+import MainPage from "../components/MainPage";
 import {setSearchField,requestRobots} from "../actions";
-import Header from "./Header";
 
 const mapStateToProps=state=>{
 
@@ -14,7 +10,6 @@ const mapStateToProps=state=>{
     searchField: state.searchRobots.searchField,
     robots:state.requestRobots.robots,
     isPending:state.requestRobots.isPending,
-    error:state.requestRobots.error
 
   }
 
@@ -27,7 +22,8 @@ return {
 }
 };
 
-export class App extends Component{
+
+ class App extends Component{
 
   componentDidMount() {
      this.props.onRequestRobots();
@@ -36,17 +32,8 @@ export class App extends Component{
 
 
   render (){
-    const robots=this.props.searchField===''? this.props.robots:this.props.searchField;
-
-    return <div className="App tc">
-      <Header onSearchChange={this.props.onSearchChange}/>
-      {
-        robots.trim()===""? <h1>Type Robots names Separated by "," Commas </h1>:
-            <Scroller><ErrorBoundry> <Cardlist robots={robots}/></ErrorBoundry> </Scroller>
-
-      }
-    </div>
-  }
+   return <MainPage {...this.props}/>
 }
+ }
 
 export default connect(mapStateToProps,mapDispatchToProps)(App);
